@@ -53,7 +53,10 @@ function RegisterPage() {
   }
 
   return (
-    <main className="auth-page">
+    <main
+      className="auth-page"
+      style={{ backgroundImage: `url(${process.env.PUBLIC_URL}/banner1.jpg)` }}
+    >
       <section className="auth-card" aria-labelledby="signup-title">
         <h1 id="signup-title">Sign Up</h1>
         <form className="auth-form" onSubmit={handleSubmit} noValidate>

@@ -1,11 +1,11 @@
 import { useNavigate } from 'react-router-dom';
 
 const categories = [
-  { name: 'iPhone', image: '/product_1.png', size: 'wide' },
-  { name: 'Mac', image: '/product_2.png', size: 'wide' },
-  { name: 'iPad', image: '/product_3.png', size: 'regular' },
-  { name: 'Watch', image: '/product_4.png', size: 'regular' },
-  { name: 'AirPods', image: '/product_5.png', size: 'regular' },
+  { name: 'iPhone', image: `${process.env.PUBLIC_URL}/product_1.png`, size: 'wide' },
+  { name: 'Mac', image: `${process.env.PUBLIC_URL}/product_2.png`, size: 'wide' },
+  { name: 'iPad', image: `${process.env.PUBLIC_URL}/product_3.png`, size: 'regular' },
+  { name: 'Watch', image: `${process.env.PUBLIC_URL}/product_4.png`, size: 'regular' },
+  { name: 'AirPods', image: `${process.env.PUBLIC_URL}/product_5.png`, size: 'regular' },
 ];
 
 function HomeCategories() {

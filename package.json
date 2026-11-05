@@ -2,6 +2,7 @@
   "name": "rjs-asm03",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://vitlailaptrinh.github.io/React-JS-Ass3",
   "dependencies": {
     "@testing-library/dom": "^10.4.2",
     "@testing-library/jest-dom": "^6.9.1",

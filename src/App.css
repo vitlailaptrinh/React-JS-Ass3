@@ -152,7 +152,6 @@
   flex: 1 0 auto;
   align-items: center;
   background-color: #f4f5fa;
-  background-image: url('/banner1.jpg');
   background-position: center;
   background-size: cover;
 }
@@ -897,7 +896,6 @@
   justify-content: flex-start;
   padding: 30px 24px 30px clamp(24px, 25.5vw, 296px);
   background-color: #f3f4f8;
-  background-image: url('/banner1.jpg');
   background-position: center;
   background-size: cover;
 }

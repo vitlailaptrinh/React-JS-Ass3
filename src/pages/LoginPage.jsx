@@ -68,7 +68,10 @@ function LoginPage() {
   }
 
   return (
-    <main className="auth-page">
+    <main
+      className="auth-page"
+      style={{ backgroundImage: `url(${process.env.PUBLIC_URL}/banner1.jpg)` }}
+    >
       <section className="auth-card auth-card--signin" aria-labelledby="signin-title">
         <h1 id="signin-title">Sign In</h1>
         <form className="auth-form" onSubmit={handleSubmit} noValidate>
